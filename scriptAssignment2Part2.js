@@ -283,6 +283,20 @@ if (gameRated >= 1 && gameRated <= 5) {
 /*====================================================================
 
 //Part 5 - The “Coin Flip” Game (5 points)
+In this part of the assignment you will explore what you’ve learned so far about variables, prompts, conditionals, operators, math, and more to create a “coin flip game”. To complete the game follow the steps outlined below:
+1.	Begin your application by creating a variable called coinFlip and set it equal to a random number. You will have to use a Math method to get this number.
+2.	Prompt the user to select “Heads or Tails” and set the result to a new variable called choice.
+3.	Use a conditional to check the result of the coin flip. If it’s less than a certain number, it will be heads. If it’s greater than a certain number, it will be tails. 
+4.	If the result is heads and the user selects heads, display the following message within an alert: 
+The flip was heads and you chose heads...you win!
+5.	If the result is heads and the user selects tails, display the following message within an alert: 
+The flip was heads but you chose tails...you lose!
+6.	If the result is tails and the user selects heads, display the following message within an alert: 
+The flip was tails but you chose heads...you lose!
+7.	If the result is tails and the user selects tails, display the following message within an alert: 
+The flip was tails and you chose tails...you win!
+8.	Use two Math methods to get a solid whole number on the coin flip. Modify the evaluation of the expression in your conditional so that it now checks for a Boolean result.
+
 
 ====================================================================*/
 
@@ -316,8 +330,17 @@ else {
 
 
 /*====================================================================
-//Part 6
+Part 6 - The “Coin Flip” Game Redux (5 points)
+In this part of the assignment you will explore what you’ve learned so far about variables, for loops, conditionals, operators, math, and more to create a different version of the “coin flip game”. To complete the game follow the steps outlined below:
+1.	Begin your application by declaring a variable called coinFlip. Do not assign the variable a number just yet.
+2.	Create a for loop that loops 10 times.
+3.	Within the for loop assign a randomly generated number to coinFlip. You will have to use a Math method to get this number. Also, make sure to round that number off so that you get either a 0 or 1 as the result.
+4.	Use a conditional to check the result of the coin flip. If it’s 0, write out “Heads” into the console window. If it’s 1, write out “Tails” into the console window. 
 
+====================================================================*/
+
+
+/*====================================================================
 //STEP 1
 var coinFlip;
 
@@ -340,7 +363,18 @@ else {
 
 
 /*====================================================================
-//Part 7
+Part 7 - The “Coin Flip Streak” Game (5 points)
+In this part of the assignment you will explore what you’ve learned so far about variables, do while loops, conditionals, operators, math, and more to create a “coin flip streak game”. The point of this simple game is to see what kind of streak you can get to (how many times “Heads” comes up in a row before “Tails” does to end the game). To complete the game follow the steps outlined below:
+1.	Begin your application by declaring a variable called coinFlip. Do not assign the variable a number just yet.
+2.	Create a do while loop.
+3.	Within the do while loop assign a randomly generated number to coinFlip. You will have to use a Math method to get this number. Also, make sure to round that number off so that you get either a 0 or 1 as the result.
+4.	Use a conditional to check the result of the coin flip. If it’s 0, write out “Heads” into the console window. If it’s 1, write out “Tails” into the console window. 
+5.	Set the condition of the do while loop to end once the coinFlip becomes “Tails”.
+
+====================================================================*/
+
+
+/*====================================================================
 
 //STEP 1
 var coinFlip;
